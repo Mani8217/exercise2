@@ -5,7 +5,7 @@
 <img src="https://i.ibb.co/0QCmZfW/Screenshot-2022-12-21-at-13-29-43-1.jpg" alt="form" width="500">
 </p>
 
-# Structure : 
+## Structure : 
 - You should have a page title in an h1 element with an id of title
 - You should have a short explanation in a p element with an id of description
 - You should have a form element with an id of survey-form
@@ -24,7 +24,7 @@
 - Inside the form element, you are presented with a button with id of submit to submit all the inputs
 
                    -----------------------------------------------------------------------------------
-# Resource : 
+## Resource : 
 - [w3schools](https://www.w3schools.com/html/html_forms.asp)   
 - [codeacademy](https://www.codecademy.com/catalog)
 - Classroom Materials
