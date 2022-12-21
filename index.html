@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        form{
+            width: 50%;
+            text-align: left;
+        }
         header h1{
             text-align: center;
         }
@@ -47,6 +51,20 @@
             color: #00008b;
             border: 1px inset #00008b;
         }
+        .main{
+          text-align: center;
+        }
+        .main form{
+            margin: 10px auto;
+        }
+        form textarea {
+            
+        }
+        .main .paraf{
+            text-indent: 8px;
+            width: 50%;
+            margin: 10px auto;
+        }
         
     </style>
 </head>
@@ -54,12 +72,15 @@
     <header>
         <h1>Form Survey</h1>
     </header>
-    <main>
-        <p> <pre>           Lorem ipsum dolor sit amet, consectetur adipisici
-        elit.Necessitatibus natus nam doloremque aliquid eos 
-        sit ducimus et, <q></q> a voluptatibus iusto aliquam id deserunt!
-        Sunt dolores illum a repudiandae soluta animi!</pre></p>
-        <form action="" method="get">
+    <main class="main">
+       <article>
+        <p class="paraf">         
+            Lorem ipsum dolor sit amet, consectetur adipisici
+            elit.Necessitatibus natus nam doloremque aliquid eos 
+            sit ducimus et, <q></q> a voluptatibus iusto aliquam 
+            id deserunt!Sunt dolores illum a repudiandae soluta animi!</p>
+       </article>     
+       <form action="" method="get">
             <fieldset>
                 <legend>Personal Information</legend>
               <p>
@@ -110,9 +131,9 @@
                 <label for="zip">Zip code:</label>
                 <input type="number" id="zip" name="zip" class="text" placeholder="zip code.." min="100000" max="999999" step="10">
                </p>
-               <p>
-                <textarea name="" id="" cols="20" rows="7"></textarea>
-               </p>
+               
+                <textarea name="" id="" cols="20" rows="7" placeholder="Description.."></textarea>
+              
             </fieldset>
             <p>
                 <input type="submit" name="submit" id="submit" class="btn">
