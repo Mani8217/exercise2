@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Survey</title>
     <style>
+        *{
+            box-sizing: border-box;
+        }
+        .cover{
+            margin: 0;
+            padding: 0;
+            background-image:url(https://as1.ftcdn.net/v2/jpg/03/39/41/94/1000_F_339419407_lQFv0rElsDxVcAhbF0rSSKyTamZvjb3L.jpg) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: cover;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.6;
+            position: fixed;
+            
+
+
+            
+        }
+        .container {
+            position: relative;
+        }
         form{
             width: 50%;
             text-align: left;
@@ -69,6 +93,8 @@
     </style>
 </head>
 <body>
+    <div class="cover"></div>
+    <div class="container">
     <header>
         <h1>Form Survey</h1>
     </header>
@@ -90,6 +116,10 @@
               <p>
                 <label for="lname">Last Name:</label>
                 <input type="text" name="lname" id="lname" placeholder="your last name .." class="text">
+              </p>
+              <p>
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" name="" id="" class="text">
               </p>
                <p>
                 <label for="email">Email Address:</label>
@@ -144,5 +174,6 @@
     <footer>
         <p>made with ❣️ by <i>Mani.Sh</i></p>
     </footer>
+    </div>
 </body>
 </html>
