@@ -2,7 +2,7 @@
   Form Survey
 </h1>  
 <p align="center">
-<img src="https://i.ibb.co/0QCmZfW/Screenshot-2022-12-21-at-13-29-43-1.jpg" alt="form" width="500">
+<img src="https://i.postimg.cc/jdBWb0Yz/Screenshot-2022-12-26-at-18-42-11.png" width="500">
 </p>
 
 ## Structure : 
