@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Survey</title>
+    <script src="js/script.js"></script>
     <style>
         *{
             box-sizing: border-box;
@@ -111,23 +112,27 @@
                 <legend>Personal Information</legend>
               <p>
                 <label for="fname">First Name:</label>
-                <input type="text" name="fname" id="fname" placeholder="your first name .." class="text">
+                <input type="text" name="fname" id="fname" placeholder="your first name .." class="text" required>
               </p>
               <p>
                 <label for="lname">Last Name:</label>
-                <input type="text" name="lname" id="lname" placeholder="your last name .." class="text">
+                <input type="text" name="lname" id="lname" placeholder="your last name .." class="text" required>
               </p>
               <p>
                 <label for="birthdate">Birth Date:</label>
-                <input type="date" name="" id="" class="text">
+                <input type="date" name="" id="" class="text" required>
               </p>
                <p>
                 <label for="email">Email Address:</label>
-                <input type="email" name="email"  id="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class="text" placeholder="email address..">
+                <input type="email" name="email"  id="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class="text" placeholder="email address.." required>
                </p>
                <p>
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password" class="text" placeholder="********" >
+                <input type="password" id="password" name="password" class="text" placeholder="********"  required>
+               </p>
+               <p>
+                <label for="cv">Upload CV:</label><br>
+                <input type="file" name="cv" id="cv" multiple value="file upload" >
                </p>
               <p>
                 <label for="color">color:</label>
