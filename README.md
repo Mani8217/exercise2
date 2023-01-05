@@ -1,9 +1,11 @@
 <h1 align="center">
   Form Survey
-</h1>  
+</h1> 
+
 <p align="center">
 <img src="https://i.postimg.cc/jdBWb0Yz/Screenshot-2022-12-26-at-18-42-11.png" width="500">
 </p>
+- page address: https://mani8217.github.io/exercise2/
 
 ## Structure : 
 - You should have a page title in an h1 element with an id of title
